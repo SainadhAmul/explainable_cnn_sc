@@ -10,17 +10,17 @@ This project aims to build a robust vision model capable of accurate and reliabl
 - [Pre-built Architectures (Res Net)](#pre-built-architectures-res-net)
 - [Explainability in Vision Models](#explainability-in-vision-models)
 - [Solution Design and Plan](#solution-design-and-plan)
-    - [Solution Stages](##solution-stages)
-    - [High-level Solution Architecture](##high-level-solution-architecture)
+    - [Solution Stages](#solution-stages)
+    - [High-level Solution Architecture](#high-level-solution-architecture)
 - [Data](#data)
-    - [Data Samples](##data-samples)
+    - [Data Samples](#data-samples)
 - [Solution & Experiments](#solution--experiments)
-    - [Model](##model)
-    - [Model Tuning](##model-tuning)
-    - [Receptive Field & Batch Normalization](##receptive-field-&-batch-normalization)
-    - [Data Augmentation & Regularization](##data-augmentation-&-regularization)
+    - [Model](#model)
+    - [Model Tuning](#model-tuning)
+    - [Receptive Field & Batch Normalization](#receptive-field--batch-normalization)
+    - [Data Augmentation & Regularization](#data-augmentation--regularization)
 
-- [Explainability](##explainability)
+- [Explainability](#explainability)
 
 
 
