@@ -264,6 +264,11 @@ Select data augmentation techniques played a huge role in improving the overall 
 
 ![alt text](https://github.com/SainadhAmul/explainable_cnn_sc/blob/main/Other%20Plots/DA.png?raw=true)
 
+
+## Explainability
+
+Simple yer intuitive ui was built using grad io to eplore this model
+
 ![alt text](https://github.com/SainadhAmul/explainable_cnn_sc/blob/main/Explainable%20%26%20Debuggable%20Outputs/j8csJNB.gif?raw=true)
 
 
