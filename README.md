@@ -201,9 +201,11 @@ Total params: 11,172,423
 Trainable params: 11,172,423
 Non-trainable params: 0
 
+Resnet 18 was performing the best out of the models that I have tested.
 
-
-
+Training phase graphs for accuracy and loss
+![alt text](https://github.com/SainadhAmul/explainable_cnn_sc/blob/main/Other%20Plots/Res%2018%20Acc.png?raw=true)
+![alt text](https://github.com/SainadhAmul/explainable_cnn_sc/blob/main/Other%20Plots/Res%2018%20Loss.png?raw=true)
 
 Comapritive -Test Accuracies across models with a particular set of tuning
 
@@ -248,21 +250,24 @@ Final Model results
 
 
 ### Model Tuning
-The base model was tuned by adding more layers and complexities like 1x1 convolution to reduce the number of channels, batch normalization to deal with exploding & vanishing gradients, data augmentations, and regularization to keep the model generalized, global average pooling instead of huge linear layers to reduce the computations and parameters and even yield better accuracy.
+The base model was tuned by adding more layers and complexities like 1x1 convolution to reduce the number of channels, batch normalization to deal with exploding & vanishing gradients, data augmentations, and regularization to keep the model generalized, global average pooling instead of huge linear layers to reduce the computations and parameters and even yield better accuracy. Tested the models with multiple optmizers to see which one is converging faster and which is more compute efficient.
+
+![alt text](https://github.com/SainadhAmul/explainable_cnn_sc/blob/main/Other%20Plots/opt.png?raw=true)
 
 ### Receptive Field & Batch Normalization
 To build the base model that would look at the entire image before making the classification, the idea of receptive fields was crucial. This concept helped add enough layers to reach the final receptive field equal to the size of the image. And to counteract the problems like exploding gradient with deeper networks, batch normalization was used.
+
 
 ### Data Augmentation & Regularization
 Select data augmentation techniques played a huge role in improving the overall accuracy of the model by generating more varied train data for the model to learn. Using data augmentation techniques, a better accuracy/ generalized model with a smaller initial training set was achieved. Regularization methods like dropout with a probability of 0.01, l1& l2 regularizations were also used.
 
 
-
+![alt text](https://github.com/SainadhAmul/explainable_cnn_sc/blob/main/Other%20Plots/DA.png?raw=true)
 
 ![alt text](https://github.com/SainadhAmul/explainable_cnn_sc/blob/main/Explainable%20%26%20Debuggable%20Outputs/j8csJNB.gif?raw=true)
 
 
-
+To dive deeper into the project and experiments please refer to the final report
 
 
 
