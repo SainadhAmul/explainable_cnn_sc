@@ -98,6 +98,7 @@ The cases comprise of good representative collection of all significant pigmente
 Several models were experimented with in this project, from building a custom model from scratch to utilizing pre-built architectures like resnet-18 and resnet-34. Multiple data augmentation techniques, optimizers, learning rate schedulers, and other regularizing techniques were also experimented with. The model building started with a base CNN model built from scratch using the idea of a receptive field.
 
 - Custom Model Architecture
+
 | Layer (type)   | Output Shape      | Param #   |
 | -------------- | ---------------- | ---------|
 | Conv2d-1       | [-1, 8, 224, 224] | 224      |
@@ -179,6 +180,8 @@ Non-trainable params: 0
 
 
 - Res 18 Architecture
+
+
 | Layer (type) | Output Shape         | Param #    |
 |--------------|----------------------|------------|
 | Conv2d       | [-1, 64, 64, 64]     | 1,728      |
